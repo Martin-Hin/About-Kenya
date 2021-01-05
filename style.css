@@ -1,20 +1,28 @@
 body{
     margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+    
 }
 header{
     background-color: #d14635;
-    max-width: 800px;
-    margin: 0 auto;
+    width: 800px auto;
+    margin: 20px;
 }
 
 header h1{
     color: white;
     font-family: 'Pirata One', cursive;
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
 }
 
 header img{
-     width: 300px;
-     padding: 0 20px 0px 250px;
+     width: 600px;
+     height: 300px;
+     padding-left: 370px;
+     margin: auto;
 }
 
 main{   
@@ -55,10 +63,19 @@ h3{
 footer{
     background-color: rgb(162, 238, 195);
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
 }
-h5 {
+h4 {
     font-size: medium;
     font-family: 'Pirata One', cursive;
     color: white;
+    padding: 0 50px;
 }
+ a{
+     color: red;
+ }
+ a:hover{
+     color: purple;
+ }
